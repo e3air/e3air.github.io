@@ -12,8 +12,10 @@
 
 .section2 h2{
   grid-area:s2A;
+  color: black;
 }
 
 .section2 p{
   grid-area:s2B;
+  color:black;
 }
