@@ -1,0 +1,73 @@
+.section1 {
+  height: 50rem;
+  overflow: hidden;
+  background-image: url("../../Assets/s1bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-areas:
+  "s1A s1A"
+  "s1B s1C";
+}
+
+.s1A{
+  grid-area: s1A;
+  padding: 3.313rem 8.125rem;
+  padding-bottom: 0;
+}
+
+.s1A img{
+  margin-right: 21.25rem;
+}
+
+.s1A a{
+  color:white;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+.s1A button{
+  margin-left: 8.938rem;
+  color: #2B63E3;
+  background-color: white;
+}
+
+.s1B{
+  padding-top: 1rem;
+  grid-area: s1B;
+  padding-left: 30%;
+}
+
+.s1B h1{
+  margin-bottom: 4rem;
+}
+
+
+.s1B h6{
+margin-top: 6rem;
+font-size: 1.75rem;
+font-weight: 400;
+color: #FFFFFF;
+letter-spacing: 0;
+line-height: 2.5rem;
+}
+
+.s1B button{
+  margin-right: 1.5rem;
+}
+
+.s1B button:nth-of-type(2){
+  border: 0.125rem solid black;
+  border-color: #CCCCCC;
+  background-color: Transparent;
+
+}
+
+.s1C{
+  grid-area: s1C;
+}
+
+.s1C img{
+   width: 100%;
+}
