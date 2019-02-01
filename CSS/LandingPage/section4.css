@@ -9,6 +9,9 @@
   grid-template-areas:
   "title title title"
   "s4A s4B s4C";
+
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .section4 h2{
@@ -21,13 +24,13 @@
 }
 
 .s4A{
-  grid-area:s4a;
+  grid-area:s4A;
 }
 
 .s4B{
-  grid-area:s4a;
+  grid-area:s4B;
 }
 
 .s4C{
-  grid-area:s4a;
+  grid-area:s4C;
 }
