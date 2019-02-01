@@ -1,0 +1,42 @@
+.section8 {
+  height: 50rem;
+  overflow: hidden;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "s8A s8B"
+  "s8C s8D";
+  align-items: center;
+  justify-content: center;
+}
+
+.section8 h2,p{
+  color: black;
+}
+
+.section8 img:nth-of-type(1){
+  grid-area: s8A;
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.s8B{
+  grid-area: s8B;
+  margin: auto 100px;
+  margin-top: 10px;
+}
+
+.s8C{
+  grid-area: s8C;
+  margin: auto 100px;
+  margin-top: 10px;
+}
+
+.section8 img:nth-of-type(2){
+  grid-area: s8D;
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
