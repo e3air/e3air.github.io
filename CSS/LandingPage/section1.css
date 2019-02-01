@@ -24,6 +24,7 @@
 }
 
 .s1A a{
+  visibility: hidden;
   color:white;
   margin-right: 2rem;
   text-decoration: none;

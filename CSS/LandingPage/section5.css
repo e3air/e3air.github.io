@@ -1,0 +1,25 @@
+.section5 {
+  height: 18.75rem;
+  overflow: hidden;
+  background-image: url("../../Assets/s5bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-areas:
+  "s5A s5B";
+  justify-items: center;
+  align-items: center;
+}
+
+.section5 h2{
+  grid-area:s5A;
+  color: white;
+}
+
+.section5 p{
+  grid-area:s5B;
+  color:white;
+  padding-left: 20px;
+  padding-right: 160px;
+}
