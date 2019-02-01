@@ -1,0 +1,33 @@
+.section4 {
+  height: 50rem;
+  overflow: hidden;
+  background-color: white;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+  "title title title"
+  "s4A s4B s4C";
+}
+
+.section4 h2{
+  color: black;
+  grid-area: title;
+}
+
+.section4 img{
+  width: 360px;
+}
+
+.s4A{
+  grid-area:s4a;
+}
+
+.s4B{
+  grid-area:s4a;
+}
+
+.s4C{
+  grid-area:s4a;
+}

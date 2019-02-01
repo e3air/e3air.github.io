@@ -3,7 +3,7 @@
   overflow: hidden;
   background-image: url("../../Assets/s3bg.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   display: grid;
   align-items: center;
   text-align: center;
