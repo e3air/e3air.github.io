@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="20px" viewBox="0 0 10 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>s11fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.6489244,24 L11.2155689,24 L11.2155689,14.5558026 L9,14.5558026 L9,10.9164073 L11.2155689,10.9164073 L11.2155689,8.73321476 C11.2155689,5.7663406 12.4664005,4 16.0204036,4 L18.978931,4 L18.978931,7.63939529 L17.1304059,7.63939529 C15.746507,7.63939529 15.6544688,8.14739884 15.6544688,9.09670965 L15.6489244,10.9164073 L19,10.9164073 L18.6074518,14.5558026 L15.6489244,14.5558026 L15.6489244,24 L15.6489244,24 Z" id="path-1"></path>
+    </defs>
+    <g id="Testing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1205.000000, -6623.000000)">
+            <g id="Social" transform="translate(1150.000000, 6619.000000)">
+                <g id="Facebook" transform="translate(46.000000, 0.000000)">
+                    <g id="Base-UI/Icon-Social/Default/Facebook">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Facebook" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <g id="Base-UI/Color/White-&amp;-Light/White" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                            <rect id="Base" x="0" y="0" width="28" height="28"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

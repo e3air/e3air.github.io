@@ -1,5 +1,4 @@
 .section4 {
-  height: 43.75rem;
   overflow: hidden;
   background-color: white;
   display: grid;
@@ -12,13 +11,13 @@
 
   padding-left: 125px;
   padding-right: 125px;
+  margin-bottom: 64px;
 }
 
 .section4 h2{
   color: black;
   grid-area: title;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  padding: 26px 0px;
 }
 
 .section4 img{

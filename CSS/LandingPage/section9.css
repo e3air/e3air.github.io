@@ -1,5 +1,5 @@
 .section9 {
-  height: 50rem;
+  height: 48rem;
   overflow: hidden;
   background-color: white;
   display: grid;
@@ -10,15 +10,13 @@
   justify-content: center;
 }
 
-.section9 img:nth-of-type(1) {
+.section9 img{
   padding: 20px;
-  width: 90%;
+  padding-bottom: 0px;
+  width: 80%;
 }
 
-.section9 img:nth-of-type(2) {
-  padding: 20px;
-  width: 90%;
-}
+
 
 .s9B {
   padding: 0px 100px;
