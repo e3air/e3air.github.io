@@ -50,7 +50,7 @@
 
 .s1B h6{
 margin-top: 6rem;
-font-size: 1.75rem;
+font-size: 1.375rem;
 font-weight: 400;
 color: #FFFFFF;
 letter-spacing: 0;
@@ -70,6 +70,7 @@ line-height: 2.5rem;
 
 .s1C{
   grid-area: s1C;
+  padding-top: 12%;
 }
 
 .s1C img{

@@ -11,7 +11,7 @@
 }
 
 .section9 img{
-  padding: 20px;
+  padding: 3.9%;
   padding-bottom: 0px;
   width: 80%;
 }
@@ -19,7 +19,7 @@
 
 
 .s9B {
-  padding: 0px 100px;
+  padding: 0px 12.6%;
   overflow: hidden;
   background-color: white;
   display: grid;
@@ -37,7 +37,7 @@
 .s9B h2{
     grid-area: s9B1;
     color: black;
-    margin-bottom: 96px;
+    margin-bottom: 15%;
 }
 
 .s9B h5:nth-of-type(1){
@@ -45,9 +45,9 @@
 }
 
 .s9B p:nth-of-type(1){
-  margin-left: 20px;
+  margin-left: 4%;
   grid-area: s9B3 ;
-  margin-bottom: 32px;
+  margin-bottom: 5%;
 }
 
 .s9B h5:nth-of-type(2){
@@ -55,9 +55,9 @@
 }
 
 .s9B p:nth-of-type(2){
-  margin-left: 20px;
+  margin-left: 4%;
   grid-area: s9B5 ;
-  margin-bottom: 32px;
+  margin-bottom: 5%;
 }
 
 .s9B h5:nth-of-type(3){

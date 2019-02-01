@@ -13,7 +13,7 @@
 .s7A {
   grid-area: s7A;
   margin-top: 0px;
-  margin: auto 130px;
+  margin: auto 18%;
 }
 
 .s7B {
@@ -21,8 +21,8 @@
   background-image: url("../../Assets/s7image.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin: auto 40px;
-  padding: 50px 0px;
+  margin: auto 5.5%;
+  padding: 6.9% 0px;
 
 }
 

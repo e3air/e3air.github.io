@@ -6,7 +6,7 @@
   grid-template-columns: 63% 37%;
   grid-template-areas:
   "s6A s6B";
-  padding-top: 50px;
+  padding-top: 3.4%;
 }
 
 .s6A{
@@ -19,7 +19,7 @@
   "s6A2 s6A2 s6A2"
   "s6A3 s6A3 s6A3"
   "s6A4 s6A5 s6A6";
-  padding: 40px 100px ;
+  padding: 4.4% 11% ;
 
 }
 
