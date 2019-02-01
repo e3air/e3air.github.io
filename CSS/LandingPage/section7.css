@@ -1,0 +1,46 @@
+.section7 {
+  height: 31.25rem;
+  overflow: hidden;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "s7A s7B";
+  align-items: center;
+}
+
+
+.s7A {
+  grid-area: s7A;
+  margin-top: 0px;
+  margin: auto 130px;
+}
+
+.s7B {
+  grid-area: s7B;
+  background-image: url("../../Assets/s7image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto 40px;
+  padding: 50px 0px;
+
+}
+
+.s7A h2{
+  color: black;
+  margin-top: 0px;
+}
+
+.s7A p{
+  color: black;
+  margin-top: 0px;
+}
+
+.s7B h2{
+font-size: 36px;
+font-weight: 700;
+color: #FFFFFF;
+line-height: 48px;
+margin: 30px;
+margin-left: 60px
+}
