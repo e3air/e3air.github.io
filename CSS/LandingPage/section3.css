@@ -1,0 +1,39 @@
+.section3 {
+  height: 43.75rem;
+  overflow: hidden;
+  background-image: url("../../Assets/s3bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  "s3A s3A"
+  "s3B s3C"
+  "s3D s3E";
+}
+
+.section3 h3,h2,p{
+  color:white;
+}
+
+.s3A{
+  grid-area: s3A
+}
+
+.s3B{
+  grid-area: s3B
+}
+
+.s3C{
+  grid-area: s3C
+}
+
+.s3D{
+  grid-area: s3D
+}
+
+.s3E{
+  grid-area: s3E
+}
