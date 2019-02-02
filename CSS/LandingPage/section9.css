@@ -7,16 +7,14 @@
   grid-template-areas:
   "s9A s9B s9C";
   align-items: center;
-  justify-content: center;
+  justify-items: end;
 }
 
 .section9 img{
-  padding: 3.9%;
   padding-bottom: 0px;
-  width: 80%;
+  width: 90%;
+  object-fit: contain;
 }
-
-
 
 .s9B {
   padding: 0px 12.6%;
