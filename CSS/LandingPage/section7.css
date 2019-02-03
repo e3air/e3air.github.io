@@ -1,46 +1,100 @@
-.section7 {
-  height: 31.25rem;
-  overflow: hidden;
-  background-color: white;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas:
-  "s7A s7B";
-  align-items: center;
+
+      .section7 {
+        overflow: hidden;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "s7B" "s7A";
+        align-items: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        text-align: center;
+      }
+
+
+      .s7A {
+        padding: 10% 3%;
+        grid-area: s7A;
+      }
+
+      .s7B {
+        padding: 0% 0%;
+        grid-area: s7B;
+        background-image: url("../../Assets/s7image.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .s7A h2{
+        color: black;
+        margin-top: 0px;
+      }
+
+      .s7A p{
+        color: black;
+        margin-top: 0px;
+      }
+
+      .s7B h2{
+        font-size: 20px;
+        font-weight: 700;
+        color: #FFFFFF;
+        line-height: 25px;
+        margin: 30px;
+      }
+
+
+
+@media (min-width: 768px) {
+
+
+      .section7 {
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+        "s7A s7B";
+        text-align: left;
+      }
+
+
+      .s7A {
+        padding: 0%;
+        padding-left: 10%;
+      }
+
+      .s7B {
+        margin: auto 7%;
+        padding: 5% 0%;
+      }
+
+
+      .s7B h2{
+        padding-left: 5%;
+      }
+
+
 }
 
 
-.s7A {
-  grid-area: s7A;
-  margin-top: 0px;
-  margin: auto 18%;
-}
+@media (min-width: 1024px) {
 
-.s7B {
-  grid-area: s7B;
-  background-image: url("../../Assets/s7image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: auto 5.5%;
-  padding: 6.9% 0px;
+      .s7A {
+        padding-right: 5%;
+      }
+
+      .s7B h2{
+        font-size: 28px;
+        line-height: 38px;
+      }
 
 }
 
-.s7A h2{
-  color: black;
-  margin-top: 0px;
-}
 
-.s7A p{
-  color: black;
-  margin-top: 0px;
-}
+@media (min-width: 1440px) {
 
-.s7B h2{
-font-size: 36px;
-font-weight: 700;
-color: #FFFFFF;
-line-height: 48px;
-margin: 30px;
-margin-left: 60px
+      .s7B h2{
+        font-size: 36px;
+        line-height: 48px;
+      }
+
 }

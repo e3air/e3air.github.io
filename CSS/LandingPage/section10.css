@@ -1,49 +1,98 @@
-.section10 {
-  height: 25rem;
-  overflow: hidden;
-  background-color: white;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas:
-  "s10A s10B";
-  align-items: center;
-  justify-content: center;
+
+      .section10 {
+        overflow: hidden;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "s10A" "s10B";
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10% 5%;
+        padding-top: 0%;
+      }
+
+      .section10 h2,h5,p{
+        color: black;
+      }
+
+      .s10A{
+        grid-area: s10A;
+      }
+
+      .s10B{
+        grid-area: s10B;
+        overflow: hidden;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "s10B1" "s10B2"
+        "s10B3" "s10B4";
+        align-items: center;
+      }
+
+      .s10B1{
+        grid-area:s10B1;
+      }
+
+      .s10B2{
+        grid-area:s10B2;
+      }
+
+      .s10B3{
+        grid-area:s10B3;
+      }
+
+      .s10B4{
+        grid-area:s10B4;
+      }
+
+
+
+@media (min-width: 768px) {
+
+      .section10 {
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+        "s10A s10B";
+        text-align: left;
+        padding: 5% 0%;
+      }
+
+      .s10A{
+        padding: 0% 10%;
+        padding-right: 5%;
+      }
+
+      .s10B{
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+        "s10B1 s10B2"
+        "s10B3 s10B4";
+      }
+
+
+      .s10B2{
+        padding-left: 10%;
+        height: 100%;
+      }
+
+      .s10B4{
+        padding-left: 10%;
+      }
+
 }
 
-.section10 h2,h5,p{
-  color: black;
+
+@media (min-width: 1024px) {
+
+
 }
 
-.s10A{
-  grid-area: s10A;
-  margin: 0px 13.8%;
-}
 
-.s10B{
-  grid-area: s10B;
-  overflow: hidden;
-  background-color: white;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas:
-  "s10B1 s10B2"
-  "s10B3 s10B4";
-  align-items: center;
-  justify-content: center;
-}
+@media (min-width: 1440px) {
 
-.s10B1{
-  grid-area:s10B1;
-}
 
-.s10B2{
-  grid-area:s10B2;
-}
-
-.s10B3{
-  grid-area:s10B3;
-}
-
-.s10B4{
-  grid-area:s10B4;
 }
