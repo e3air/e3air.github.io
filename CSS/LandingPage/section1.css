@@ -208,6 +208,7 @@
     min-height: 100%;
   }
   .s1D img{
+    display: grid;
     padding: 0%;
     margin: 0%;
     padding-top: 30%;
