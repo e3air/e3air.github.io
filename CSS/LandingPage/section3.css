@@ -1,86 +1,71 @@
-      .section3 {
-        overflow: hidden;
-        background-image: url("../../Assets/s3bg.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: grid;
-        align-items: center;
-        text-align: center;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "s3A"
-        "s3B"
-        "s3C"
-        "s3D"
-        "s3E";
-        padding: 10% 5%;
-      }
+.section3 {
+  overflow: hidden;
+  background-image: url("../../Assets/s3bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "s3A"
+  "s3B"
+  "s3C"
+  "s3D"
+  "s3E";
+  padding: 10% 5%;
+}
 
-      .section3 h3,h2,p{
-        color:white;
-      }
+.section3 h3,h2,p{
+  color:white;
+}
 
-      .s3A{
-        grid-area: s3A;
-      }
+.s3A{
+  grid-area: s3A;
+}
 
-      .s3B{
-        grid-area: s3B;
-      }
+.s3B{
+  grid-area: s3B;
+}
 
-      .s3C{
-        grid-area: s3C;
-      }
+.s3C{
+  grid-area: s3C;
+}
 
-      .s3D{
-        grid-area: s3D;
-      }
+.s3D{
+  grid-area: s3D;
+}
 
-      .s3E{
-        grid-area: s3E;
-      }
+.s3E{
+  grid-area: s3E;
+}
 
-      .s3F{
-        grid-area: s3F;
-      }
+.s3F{
+  grid-area: s3F;
+}
 
-      .s3F img{
-        width: 100%;
-      }
+.s3F img{
+  width: 100%;
+}
 
-      .s3A p{
-        color:white;
-        padding-bottom:  10%;
-      }
-
-
+.s3A p{
+  color:white;
+  padding-bottom:  10%;
+}
 
 @media (min-width: 768px) {
 
-      .section3 {
-        grid-template-columns: 40% 20% 40%;
-        grid-template-areas:
-        "s3A s3A s3A"
-        "s3B s3F s3C"
-        "s3D s3F s3E";
-        padding: 3% 0%;
-      }
+  .section3 {
+    grid-template-columns: 40% 20% 40%;
+    grid-template-areas:
+    "s3A s3A s3A"
+    "s3B s3F s3C"
+    "s3D s3F s3E";
+    padding: 3% 0%;
+  }
 
-      .s3A p{
-        padding: 0% 10%;
-        padding-bottom:  3%;
-      }
-
-}
-
-
-@media (min-width: 1024px) {
-
-
-}
-
-
-@media (min-width: 1440px) {
-
-
+  .s3A p{
+    padding: 0% 10%;
+    padding-bottom:  3%;
+  }
 }

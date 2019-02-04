@@ -1,63 +1,48 @@
+.section5 {
+  overflow: hidden;
+  background-image: url("../../Assets/s5bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "s5A"
+  "s5B";
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 10% 5%;
+}
 
-      .section5 {
-        overflow: hidden;
-        background-image: url("../../Assets/s5bg.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "s5A"  "s5B";
-        justify-items: center;
-        align-items: center;
-        text-align: center;
+.section5 h2{
+  grid-area:s5A;
+  color: white;
+}
 
-        padding: 10% 5%;
-      }
-
-      .section5 h2{
-        grid-area:s5A;
-        color: white;
-      }
-
-      .section5 p{
-        grid-area:s5B;
-        color:white;
-      }
+.section5 p{
+  grid-area:s5B;
+  color:white;
+}
 
 @media (min-width: 768px) {
 
-      .section5 {
-        grid-template-columns: 65% 35%;
-        grid-template-areas:
-        "s5A s5B";
-        justify-items: center;
-        align-items: center;
-        padding-top: 3%;
-        padding-bottom: 3%;
-        text-align: left;
-      }
+  .section5 {
+    grid-template-columns: 65% 35%;
+    grid-template-areas:
+    "s5A s5B";
+    justify-items: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: left;
+  }
 
-      .section5 h2{
-        padding-left: 10%;
-      }
+  .section5 h2{
+    padding-left: 10%;
+  }
 
-      .section5 p{
-        padding-left: 5%;
-        padding-right: 10%;
-      }
-
-}
-
-
-@media (min-width: 1024px) {
-
-
-
-}
-
-
-@media (min-width: 1440px) {
-
-
+  .section5 p{
+    padding-left: 5%;
+    padding-right: 10%;
+  }
 }

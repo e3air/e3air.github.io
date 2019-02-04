@@ -1,67 +1,51 @@
+.section4 {
+  overflow: hidden;
+  background-color: white;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "title"
+  "s4A"
+  "s4B"
+  "s4C";
+  padding: 5% 5%;
+}
 
-      .section4 {
-        overflow: hidden;
-        background-color: white;
-        display: grid;
-        text-align: center;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "title"
-        "s4A" "s4B" "s4C";
+.section4 h2{
+  color: black;
+  grid-area: title;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 
-        padding: 5% 5%;
-      }
+.section4 img{
+  width: 80%;
+}
 
-      .section4 h2{
-        color: black;
-        grid-area: title;
-        padding-top: 3%;
-        padding-bottom: 3%;
-      }
+.s4A{
+  grid-area:s4A;
+  padding-bottom: 5%;
+}
 
-      .section4 img{
-        width: 80%;
-      }
+.s4B{
+  grid-area:s4B;
+  padding-bottom: 5%;
+}
 
-
-      .s4A{
-        grid-area:s4A;
-        padding-bottom: 5%;
-      }
-
-      .s4B{
-        grid-area:s4B;
-        padding-bottom: 5%;
-      }
-
-      .s4C{
-        grid-area:s4C;
-        padding-bottom: 5%;
-      }
-
-
+.s4C{
+  grid-area:s4C;
+  padding-bottom: 5%;
+}
 
 @media (min-width: 768px) {
 
-      .section4 {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas:
-        "title title title"
-        "s4A s4B s4C";
-        padding: 0% 0%;
-        padding-bottom: 3%;
-      }
-}
-
-
-@media (min-width: 1024px) {
-
-
-}
-
-
-@media (min-width: 1440px) {
-
-
-
+.section4 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+  "title title title"
+  "s4A s4B s4C";
+  padding: 0% 0%;
+  padding-bottom: 3%;
+  }
 }

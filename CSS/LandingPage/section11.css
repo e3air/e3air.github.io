@@ -1,133 +1,129 @@
+.section11 {
+  overflow: hidden;
+  background-color: #1A1A1A;
+  display: inline-block;
+  width: 100%;
+  background: #1A1A1A;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  text-align: center;
+}
 
-      .section11 {
-        overflow: hidden;
-        background-color: #1A1A1A;
-        display: inline-block;
-        width: 100%;
-        background: #1A1A1A;
-        padding-top: 15%;
-        padding-bottom: 15%;
-        text-align: center;
-      }
+.section11 hr{
+  width: 80%;
+  opacity: 0.3;
+  padding: 0%;
+}
 
-      .section11 hr{
-        width: 80%;
-        opacity: 0.3;
-        margin: 1% auto;
-      }
+.s11A{
+  margin: 0%;
+  padding: 0%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "s11A1"
+  "s11A2";
+  align-items: center;
+  text-align: center;
+}
 
-      .s11A{
-        margin: 0.006% 0%;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "s11A1" "s11A2";
-        align-items: center;
-        text-align: center;
-      }
+.s11A img{
+  grid-area: s11A1;
+  cursor:pointer;
+  justify-self:center;
+}
 
-      .s11A img{
-        grid-area: s11A1;
-        cursor:pointer;
-        justify-self:center;
-      }
+.s11A2 {
+  grid-area: s11A2;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
 
+.s11A2 a{
+  text-decoration: none;
+}
 
-      .s11A2 {
-        grid-area: s11A2;
-        text-align: center;
-        margin-top: 15%;
-        margin-bottom: 10%;
-      }
+.s11A2 img{
+  margin: 0px 5%;
+  cursor:pointer;
+}
 
-      .s11A2 img{
-        margin: 0px 5%;
-        cursor:pointer;
-      }
-
-      .s11B{
-        margin: 1% 0%;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "s11B1" "s11B2";
-        align-items: center;
-        margin-bottom: 0%;
-        padding-bottom: 0%;
-        text-align: center;
-        justify-items: center;
-      }
-
-
-      .s11B h6{
-        grid-area: s11B1;
-        font-weight: 400;
-        font-size: 14px;
-        color: #FFFFFF;
-        justify-self: center;
-      }
-
-      .s11B a{
-        justify-self: center;
-        grid-area: s11B2;
-        font-weight: 400;
-        font-size: 14px;
-        color: #FFFFFF;
-        text-decoration: none;
-        text-align: center;
-      }
-
-
-
-@media (min-width: 768px) {
-
-
-      .section11 {
-        padding-top: 3%;
-        padding-bottom: 3%;
-      }
-
-
-      .s11A{
-        margin: 0.006% 6.9%;
-        display: grid;
-        grid-template-columns: 66.66% 33.33%;
-        grid-template-areas:
-        "s11A1 s11A2";
-      }
-
-      .s11A img{
-        margin-left: 10%;
-        justify-self:left;
-      }
-
-
-      .s11A2 {
-        margin: 10% 8.3%;
-        margin-left: 31.2%;
-      }
-
-
-      .s11B{
-        margin: 1% 7%;
-        grid-template-columns: 66.66% 33.33%;
-        grid-template-areas:
-        "s11B1 s11B2";
-      }
-
-
-      .s11B h6{
-        margin-left: 5%;
-        justify-self:left;
-      }
-
-      .s11B a{
-        margin-left: 5%;
-        justify-self:left;
-      }
+.s11B{
+  margin: 1% 0%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "s11B1"
+  "s11B2";
+  align-items: center;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  text-align: center;
+  justify-items: center;
 }
 
 
+.s11B h6{
+  grid-area: s11B1;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  justify-self: center;
+}
+
+.s11B a{
+  justify-self: center;
+  grid-area: s11B2;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+
+  .section11 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .s11A{
+    margin: 0.006% 6.9%;
+    display: grid;
+    grid-template-columns: 66.66% 33.33%;
+    grid-template-areas:
+    "s11A1 s11A2";
+  }
+
+  .s11A img{
+    margin-left: 10%;
+    justify-self:left;
+  }
+
+  .s11A2 {
+    margin: 10% 8.3%;
+    margin-left: 31.2%;
+  }
+
+.s11B{
+    margin: 1% 7%;
+    grid-template-columns: 66.66% 33.33%;
+    grid-template-areas:
+    "s11B1 s11B2";
+}
+
+.s11B h6{
+    margin-left: 5%;
+    justify-self:left;
+}
+
+.s11B a{
+    margin-left: 5%;
+    justify-self:left;
+  }
+}
 
 @media (min-width: 1024px) {
 
@@ -138,10 +134,7 @@
   .s11B a{
     margin-left: 10%;
   }
-
 }
-
-
 
 @media (min-width: 1440px) {
 
@@ -154,5 +147,4 @@
     margin-left: 5%;
     font-size: 16px;
   }
-
 }

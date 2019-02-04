@@ -16,6 +16,20 @@
   display: none;
 }
 
+@media (min-width: 580px) {
+
+  .section2 {
+    margin-bottom: 0%;
+  }
+
+  .section2 p{
+    display:grid;
+    padding: 2% 10%;
+    grid-area:s2B;
+    color:black;
+    text-align: center;
+  }
+}
 
 
 @media (min-width: 768px) {
@@ -23,7 +37,6 @@
   .section2 {
     margin: 0%;
     padding: 0%;
-
     overflow: hidden;
     background-color: white;
     display: grid;
@@ -39,31 +52,13 @@
   .section2 h2{
     margin: 0%;
     padding: 0%;
-
     text-align: left;
     padding-left: 10%;
   }
 
   .section2 p{
-    display:grid;
+    text-align: left;
+    padding: 0%;
     padding-right: 10%;
-    grid-area:s2B;
-    color:black;
   }
-
-
-}
-
-@media (min-width: 1024px) {
-
-
-
-}
-
-
-@media (min-width: 1440px) {
-
-
-
-
 }

@@ -1,148 +1,123 @@
+.section6 {
+  overflow: hidden;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "s6A";
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  padding: 10% 0%;
+  padding-bottom: 0%;
+}
 
-      .section6 {
-        overflow: hidden;
-        background-color: white;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "s6A";
-        align-items: center;
-        justify-items: center;
-        text-align: center;
+.s6A{
+  grid-area:s6A;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-areas:
+  "s6A1 s6A1 s6A1"
+  "s6A2 s6A2 s6A2"
+  "s6A3 s6A3 s6A3"
+  "s6A4 s6A5 s6A6";
+  text-align: center;
+  justify-items: center;
+}
 
-        padding: 10% 0%;
-        padding-bottom: 0%;
-      }
+.s6B{
+  grid-area: s6B;
+  text-align: center;
+}
 
-      .s6A{
-        grid-area:s6A;
+.s6B img{
+  width: 100%;
+}
 
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-areas:
-        "s6A1 s6A1 s6A1"
-        "s6A2 s6A2 s6A2"
-        "s6A3 s6A3 s6A3"
-        "s6A4 s6A5 s6A6";
-        text-align: center;
-        justify-items: center;
+.s6A h2{
+  grid-area: s6A1;
+  color: black;
+  padding-left: 3%;
+  padding-right: 3%;
+}
 
-      }
+.s6A p{
+  grid-area: s6A2;
+  color: black;
+  padding-left: 3%;
+  padding-right: 3%;
+}
 
-      .s6B{
-        grid-area: s6B;
-        text-align: center;
-      }
+.s6A h6{
+  grid-area: s6A3;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 1.2px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10%;
+}
 
-      .s6B img{
-        width: 100%;
+.s6A h4{
+  text-align: left;
+  margin-top: 0;
+}
 
-      }
+.s6A h4:nth-of-type(1){
+  grid-area: s6A4;
+  text-align: center;
+}
 
+.s6A h4:nth-of-type(2){
+  grid-area: s6A5;
+  text-align: center;
+}
 
-      .s6A h2{
-        grid-area: s6A1;
-        color: black;
-        padding-left: 3%;
-        padding-right: 3%;
-      }
-
-      .s6A p{
-          grid-area: s6A2;
-          color: black;
-          padding-left: 3%;
-          padding-right: 3%;
-      }
-
-      .s6A h6{
-          grid-area: s6A3;
-          font-size: 12px;
-          font-weight: 400;
-          color: #000000;
-          letter-spacing: 1.2px;
-          line-height: 18px;
-          text-transform: uppercase;
-          margin-bottom: 10%;
-      }
-
-
-      .s6A h4{
-          text-align: left;
-          margin-top: 0;
-      }
-
-      .s6A h4:nth-of-type(1){
-          grid-area: s6A4;
-          text-align: center;
-      }
-
-      .s6A h4:nth-of-type(2){
-          grid-area: s6A5;
-          text-align: center;
-      }
-
-      .s6A h4:nth-of-type(3){
-          grid-area: s6A6;
-          text-align: center;
-      }
-
+.s6A h4:nth-of-type(3){
+  grid-area: s6A6;
+  text-align: center;
+}
 
 @media (min-width: 768px) {
 
-      .section6 {
-        grid-template-columns: 60% 40%;
-        grid-template-areas:
-        "s6A s6B";
-        padding-top: 3%;
-        padding-bottom: 3%;
-      }
+  .section6 {
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+    "s6A s6B";
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
 
-      .s6A{
-        padding: 0% 10% ;
-        justify-items: left;
-      }
+  .s6A{
+    padding: 0% 10% ;
+    justify-items: left;
+  }
 
-      .s6A h2{
-        text-align: left;
-        padding: 0px 0px;
-      }
+  .s6A h2{
+    text-align: left;
+    padding: 0px 0px;
+  }
 
-      .s6A p{
-        text-align: left;
-        padding: 0px 0px;
-      }
+  .s6A p{
+    text-align: left;
+    padding: 0px 0px;
+  }
 
-      .s6A h6{
-        text-align: left;
-        justify-self: left;
-      }
+  .s6A h6{
+    text-align: left;
+    justify-self: left;
+  }
 
-      .s6A h4:nth-of-type(1){
-          text-align: left;
+  .s6A h4:nth-of-type(1){
+    text-align: left;
+  }
 
-      }
+  .s6A h4:nth-of-type(2){
+    text-align: left;
+  }
 
-      .s6A h4:nth-of-type(2){
-          text-align: left;
-      }
-
-      .s6A h4:nth-of-type(3){
-          text-align: left;
-      }
-
-
-
-}
-
-
-@media (min-width: 1024px) {
-
-
-
-}
-
-
-@media (min-width: 1440px) {
-
-
+  .s6A h4:nth-of-type(3){
+    text-align: left;
+  }
 }
