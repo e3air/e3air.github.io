@@ -43,6 +43,17 @@
   margin: 30px;
 }
 
+@media (min-width: 580px) {
+  .section7{
+      padding-bottom: 0%;
+  }
+
+  .s7A {
+    padding: 5% 3%;
+    padding-bottom: 0%;
+  }
+}
+
 @media (min-width: 768px) {
 
   .section7 {

@@ -79,6 +79,20 @@
   margin-top: 0px;
 }
 
+@media (min-width: 580px){
+  .s9B{
+    padding: 5% 5%;
+  }
+
+  .s9B h2{
+    margin-bottom: 3%;
+  }
+
+  .s9B h5{
+    margin-top: 5%;
+  }
+}
+
 @media (min-width: 768px) {
 
   .section9 {

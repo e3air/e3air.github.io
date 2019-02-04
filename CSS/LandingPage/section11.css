@@ -82,7 +82,7 @@
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 580px) {
 
   .section11 {
     padding-top: 3%;
@@ -109,7 +109,7 @@
 
 .s11B{
     margin: 1% 7%;
-    grid-template-columns: 66.66% 33.33%;
+    grid-template-columns: 60% 40%;
     grid-template-areas:
     "s11B1 s11B2";
 }
@@ -122,6 +122,15 @@
 .s11B a{
     margin-left: 5%;
     justify-self:left;
+  }
+}
+
+@media (min-width: 768px) {
+  .s11B{
+      margin: 1% 7%;
+      grid-template-columns: 66.66% 33.33%;
+      grid-template-areas:
+      "s11B1 s11B2";
   }
 }
 

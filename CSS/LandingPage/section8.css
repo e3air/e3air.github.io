@@ -52,6 +52,23 @@
   object-fit: cover;
 }
 
+@media (min-width: 580px) {
+  .s8C{
+    padding: 3%;
+    padding-bottom: 0%;
+  }
+
+  .s8C h2{
+    padding: 8% 0%;
+    margin: 0%;
+    padding-bottom: 4%;
+  }
+
+  .s8C p{
+    margin: 0%;
+  }
+
+}
 @media (min-width: 768px) {
 
   .section8 {

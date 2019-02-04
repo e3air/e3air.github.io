@@ -38,14 +38,18 @@
   padding-bottom: 5%;
 }
 
-@media (min-width: 768px) {
+@media (min-width:580px){
+  .section4{
+    padding-top: 0%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "title title title"
+    "s4A s4B s4C";
+    padding: 0% 0%;
+    padding-bottom: 3%;
+  }
 
-.section4 {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-  "title title title"
-  "s4A s4B s4C";
-  padding: 0% 0%;
-  padding-bottom: 3%;
+  .section4 img{
+    width: 80%;
   }
 }

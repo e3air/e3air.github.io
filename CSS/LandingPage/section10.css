@@ -51,6 +51,12 @@
   grid-area:s10B4;
 }
 
+@media (min-width: 580px){
+  .section10{
+      padding-bottom: 2%;
+  }
+}
+
 @media (min-width: 768px) {
 
   .section10 {

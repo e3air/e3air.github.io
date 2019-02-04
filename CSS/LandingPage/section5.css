@@ -24,6 +24,12 @@
   color:white;
 }
 
+@media (min-width: 580px) {
+  .section5{
+    padding: 5% 5%;
+  }
+}
+
 @media (min-width: 768px) {
 
   .section5 {
